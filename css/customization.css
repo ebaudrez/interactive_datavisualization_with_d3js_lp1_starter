@@ -1,0 +1,8 @@
+#top-songs .label {
+    font-size: small;
+    text-anchor: middle;
+}
+
+#top-songs .label-artist {
+    font-style: italic;
+}
