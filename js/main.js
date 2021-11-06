@@ -34,10 +34,9 @@ const barSpacing = 5;
 const barLengthScale = d3.scaleLinear()
   .domain([0, 1000000])
   .range([0, barChartWidth - marginLeft - 100]);
-const n = topRockAlbums.length;
 // perhaps it's unnecessarily convoluted, but it sure makes the barchart code below shorter :)
 const barPosScale = d3.scaleLinear()
-  .domain([0, n])
+  .domain([0, topRockAlbums.length])
   .range([.5 * barSpacing, barChartHeight + .5 * barSpacing]);
 
 barChart
